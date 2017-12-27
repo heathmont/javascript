@@ -545,7 +545,7 @@ Other Style Guides
     ```
 
   <a name="strings--line-length"></a><a name="6.2"></a>
-  - [6.2](#strings--line-length) Strings that cause the line to go over 100 characters should not be written across multiple lines using string concatenation.
+  - [6.2](#strings--line-length) Strings that cause the line to go over 140 characters should not be written across multiple lines using string concatenation.
 
     > Why? Broken strings are painful to work with and make code less searchable.
 
@@ -2478,7 +2478,7 @@ Other Style Guides
     ```
 
   <a name="whitespace--max-len"></a><a name="18.12"></a>
-  - [19.12](#whitespace--max-len) Avoid having lines of code that are longer than 100 characters (including whitespace). Note: per [above](#strings--line-length), long strings are exempt from this rule, and should not be broken up. eslint: [`max-len`](http://eslint.org/docs/rules/max-len.html) jscs: [`maximumLineLength`](http://jscs.info/rule/maximumLineLength)
+  - [19.12](#whitespace--max-len) Avoid having lines of code that are longer than 140 characters (including whitespace). Note: per [above](#strings--line-length), long strings are exempt from this rule, and should not be broken up. eslint: [`max-len`](http://eslint.org/docs/rules/max-len.html) jscs: [`maximumLineLength`](http://jscs.info/rule/maximumLineLength)
 
     > Why? This ensures readability and maintainability.
 
